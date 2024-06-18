@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #8c3f5d;
+            font-family: 'Pixelify Sans';
+            font-weight: 100;
+            font-size: larger;
+            -webkit-text-stroke: 1px #c0705f;
+         
+            
+        }
+        h1 {
+            text-align: center;
+            padding-top: 2em;
+            color: #ffe479;
+        }
+
+        h2, h3 {
+            color:#ffe479;
+            text-align: center;
+        }
+
+        button {
+            color: red;
+            background-color: #8c3f5d;
+            max-width: 20%;
+     
+        }
+        .options{
+            padding-top: 1em;
+            display: flex;
+            flex: 1;
+            justify-content: space-around;
+            align-items: stretch;
+
+        }
+
+        img {
+            max-width: 50%;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RPS</title>
-    <script src="javascript.js"></script>
+    <title>R,P,S</title>
+    <script src="javascript.js" defer></script>
 </head>
 <body>
+    <h1> ROCK, PAPER, SCISSORS </h1>
+    <div class="options">
+        <button id="rock"><img id="rock" src="roc.png" alt ="rock"></button>
+        <button id="paper"><img id="paper" src="pap.png" alt ="paper"></button>
+        <button id="scissors"><img id="scissors"src="scis.png"></button>
+    </div>
+    <div class ="robot">
+
+    </div>
+    <h2> Choose your Selection... </h2>
+    <h3> First to 5 wins.. </h2>
+
     
 </body>
 </html>
